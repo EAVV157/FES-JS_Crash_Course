@@ -1,0 +1,26 @@
+/* Adding style before all the elements */
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+}
+
+* {
+  transition: all 300ms ease;
+}
+
+.dark-theme {
+  background-color: black;
+}
+
+.dark-theme * {
+  color: white;
+}
